@@ -2,6 +2,7 @@
  
  
  <?php
+
 include 'include.php';
  doDB();
  if ((!$_POST) || ($_GET['master_id'] != "")) {
